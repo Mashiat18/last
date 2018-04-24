@@ -3,6 +3,7 @@ package data.model;
 public class Student {
     private Integer studentId;
     private String studentName;
+    private String studentAddress;
 
     public Student() {
     }
