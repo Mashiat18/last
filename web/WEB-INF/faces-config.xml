@@ -13,4 +13,25 @@
         </navigation-case>
         
     </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>../view/index.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{studentController.isNextPage2}</from-action>
+            <from-outcome>success2</from-outcome>
+            <to-view-id>../view/success2.xhtml</to-view-id>
+        </navigation-case>
+
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>../view/index.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{studentController.isNextPage3}</from-action>
+            <from-outcome>success3</from-outcome>
+            <to-view-id>../view/success3.xhtml</to-view-id>
+        </navigation-case>
+
+    </navigation-rule>
+
 </faces-config>

@@ -20,4 +20,10 @@ public class StudentController {
      public String isNextPage(){
         return "success";
      }
+    public String isNextPage2(){
+        return "success2";
+    }
+    public String isNextPage3(){
+        return "success3";
+    }
 }

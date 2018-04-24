@@ -4,7 +4,7 @@ public class Student {
     private Integer studentId;
     private String studentName;
     private String studentAddress;
-
+    private String studentPassword;
     public Student() {
     }
 
@@ -22,5 +22,21 @@ public class Student {
 
     public void setStudentName(String studentName) {
         this.studentName = studentName;
+    }
+
+    public String getStudentAddress() {
+        return studentAddress;
+    }
+
+    public void setStudentAddress(String studentAddress) {
+        this.studentAddress = studentAddress;
+    }
+
+    public String getStudentPassword() {
+        return studentPassword;
+    }
+
+    public void setStudentPassword(String studentPassword) {
+        this.studentPassword = studentPassword;
     }
 }
