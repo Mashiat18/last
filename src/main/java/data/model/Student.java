@@ -5,6 +5,8 @@ public class Student {
     private String studentName;
     private String studentAddress;
     private String studentPassword;
+    private Integer studentHallNo;
+    
     public Student() {
     }
 
